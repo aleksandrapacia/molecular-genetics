@@ -15,18 +15,66 @@
             font-family: 'Raleway', sans-serif;
             font-size: medium;
           }
+            
         </style>
-</html>
-<html>
-<body>
+        <style>
+            #my-canvas {border: 1px solid gray;}
+        </style>
 
+<body>
     <h1><center>Gen i genom</center></h1>
     <button onclick = "location.href='index.html'" class="btn"><i class="fa fa-folder"></i>Back</button>
     <p1 class="p1"><center>Gen - podstawowa jednostka dziedziczenia </center></p1>
     <p1 class="p1"><center>Zawiera informacje na temat: </center></p1>
     <p2 class="p2"><center>budowy białka lub cząsteczki RNA</center></p2>
-    <h3>DNA - KWAS DEOKSYRYBONUKLEINOWY</h3>
-    <h3 class = "h3">RNA - KWAS RYBONUKLEINOWY</h3>
+    <h4><center>DNA - KWAS DEOKSYRYBONUKLEINOWY</center></h4>
+    <h4 class = "h3"><center>RNA - KWAS RYBONUKLEINOWY</center></h4>
+    <h2 class = "h2"><center>Budowa białka</center></h2>
+    
+    <!--<canvas id="my-canvas" width="200" height="300"></canvas>
+    <div>
+      <div1 class = "div1">
+        <p3 class="p3">Ekson - sekwencja kodująca, zawierająca informację na temat budowy 
+          RNA o kolejności ułożenia aminokwasów 
+          w białkach. 
+        </p3>
+      </div1> 
+      <div2  class = "div2"> 
+        <script>
+        
+    
+          var canvas = document.querySelector('#my-canvas');
+          var context = canvas.getContext('2d');
+      
+          function drawRectangle(x, y, width, height, color) {
+              context.beginPath();
+              
+              context.rect(x, y, width, height, color);
+              context.fillStyle=color;
+              context.fillRect(10,10,180,100)
+              context.stroke();
+          }
+      
+          drawRectangle(10, 10, 180, 100, "#45EC1C")
+          drawRectangle(10, 130, 180, 100, "#FF0000")
+    
+        </script>
+      </div2>
+    </div>
+    
+    <div id="parent">
+    -->
+    <div id="parent">
+      <div id="narrow">Część regulatorowa</div>
+      <div id="wide"><center>Część strukturalna</center>
+        <center>
+          <div id="narrow_2">Intron</div>
+        </center>
+        <div id= "narrow_3">Ekson</div>
+      </div>
+      
+      <div id="narrow">Część regulatorowa</div>
+    </div>
    
 </body>
 </html>

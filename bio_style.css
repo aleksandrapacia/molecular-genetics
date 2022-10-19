@@ -1,6 +1,6 @@
 body {
     background-color: rgb(167, 240, 206);
-    width: 1000px;
+    width: max-width;
     margin-left: auto;
     margin-right: auto;
   
@@ -27,18 +27,27 @@ body {
 }
 .p1{
     font-size: 16px;
-    font-weight: 1000;
+    font-weight: 700;
 }
 
 .h3 {
-    font-weight: 1500;
+
+    font-weight: 700;
 }
 
 .p2{
     font-size: 16px;
-    font-weight: 1000;
-    color: red
+    font-weight: bolder;
+    color: red;
 }
+
+.p3 {
+  font-size: 24px;
+  font-weight:800;
+  color: red;
+  
+}
+
 .btn {
     background-color: DodgerBlue; /* Blue background */
     color: black; /* White text */
@@ -53,12 +62,53 @@ body {
     position:absolute;
     left: 20px;
     bottom: 519px;
-  
+}
 
+.div1 {
+  float: right;
+}
 
-  }
-  
+.div2 {
+  float: left;
+}
+.h2 {
+  color: yellow;
+  font-weight: bold;
+
+}
   /* Darker background on mouse-over */
-  .btn:hover {
+.btn:hover {
     background-color: RoyalBlue;
-  }
+}
+
+.myCanvas{
+  color: violet;
+}
+
+
+#parent {
+  display: flex;
+}
+#narrow {
+  width: 200px;
+  background: lightblue;
+  /* Just so it's visible */
+}
+#wide {
+  flex: 1;
+  /* Grow to rest of container */
+  background: lightgreen;
+  /* Just so it's visible */
+}
+
+#narrow_2 {
+  width: 100px;
+  background: red ;
+}
+
+
+#narrow_3 {
+  width: 100px;
+  background: blue ;
+  color: white;
+}
