@@ -114,3 +114,10 @@ body {
   color: white;
   
 }
+
+.chromosome_image {
+
+  align-self: center;
+  padding: 20px;
+
+}
