@@ -104,6 +104,7 @@ body {
 #narrow_2 {
   width: 100px;
   background: red ;
+  
 }
 
 
@@ -111,4 +112,5 @@ body {
   width: 100px;
   background: blue ;
   color: white;
+  
 }
