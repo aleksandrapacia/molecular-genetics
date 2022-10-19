@@ -90,8 +90,11 @@ body {
 .h2 {
   color: yellow;
   font-weight: bold;
+  left: 40px;
 
 }
+
+
   /* Darker background on mouse-over */
 .btn:hover {
     background-color: RoyalBlue;
@@ -136,4 +139,14 @@ body {
   align-self: center;
   padding: 20px;
 
+}
+
+.b_f_div {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: max-content;
+  height: max-content;
 }
