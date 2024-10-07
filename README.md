@@ -1,0 +1,1 @@
+### This is a very simple and one of my very first websites I built. For now (2024) I would have built it differently but at least its content is interesting! Unfortunately in polish... But maybe I'll make an english version one day!
